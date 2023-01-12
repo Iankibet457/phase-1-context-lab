@@ -1,4 +1,51 @@
 /* Your Code Here */
+function createEmployeeRecord(first_Name,family_Name,Title,pay_PerHour){
+    const employeeRecords = {
+        firstName:first_Name,
+        familyName:family_Name,
+        title:Title,
+        payPerHour:pay_PerHour,
+        timeInEvents:[],
+        timeOutEvents:[]
+    }
+    return employeeRecords
+
+}
+
+function createEmployeeRecords(array){
+    return array
+
+}
+
+function createTimeInEvent(timein){
+    return timein
+
+}
+
+function createTimeOutEvent(){
+
+}
+
+function hoursWorkedOnDate(){
+
+}
+
+function wagesEarnedOnDate(){
+
+}
+
+// function allWagesFor(){
+
+// }
+
+function findEmployeeByFirstName(){
+
+}
+
+function calculatePayroll(){
+
+}
+
 
 /*
  We're giving you this function. Take a look at it, you might see some usage
